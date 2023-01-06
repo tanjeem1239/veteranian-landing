@@ -1,0 +1,47 @@
+.shop-dog{
+    top: 0;
+    right: 0;
+    background-color: $bg-yellow;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+    &_text{
+        
+        text-align: center;
+        color: $color-white;
+
+        h1{
+            padding-top: 50px;
+            margin: 0;
+        }
+    }
+    .shop-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        .shop-image{
+            text-align: center;
+            color: $color-white;
+
+            h4{
+                margin: 20px 0px;
+            }
+
+            button{
+                background-color: $color-info;
+                padding: 10px 30px;
+                color: $color-white;
+                border: none;
+                border-radius: 20px;
+            }
+
+            img{
+                border: 5px solid  $color-white;
+            }
+        }
+    }
+
+
+}

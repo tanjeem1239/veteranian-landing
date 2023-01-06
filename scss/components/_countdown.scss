@@ -1,0 +1,44 @@
+.countdown {
+  top: 0;
+  right: 0;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(253, 194, 0, 0.655),
+      rgba(253, 194, 0, 0.655)
+    ),
+    url(./../../public/img/men-dog.png);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+
+  .countdown-images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    .countdown-image {
+      text-align: center;
+      color: $color-white;
+
+      h5 {
+        margin: 10px 0px;
+      }
+      p {
+        margin: 10px 0px;
+      }
+
+      button {
+        background-color: $color-info;
+        padding: 10px 30px;
+        color: $color-white;
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }
+}

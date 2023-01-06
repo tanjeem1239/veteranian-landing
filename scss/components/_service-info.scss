@@ -1,0 +1,33 @@
+.service-info {
+  top: 0;
+  right: 0;
+  background-color: $bg-yellow;
+
+  padding-bottom: 100px;
+
+  &_text {
+    text-align: center;
+    color: $color-white;
+
+    h1 {
+      padding-top: 50px;
+      margin: 0;
+    }
+  }
+  .service-images {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 30px;
+    .service-image {
+      width: 350px;
+      text-align: center;
+      color: $color-white;
+
+      img {
+        border: 5px solid $color-white;
+      }
+    }
+  }
+}
